@@ -1,34 +1,68 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-      <meta charset="utf-8">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>assignment 2</title>
-    <link rel="stylesheet" href="css.css">
-    </head>
-
-    <body>
-        <h1>Menu</h1>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <section class="Pizza"><h3>Pizza</h3>
-               <p>Pizza (Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (anchovies, olives, meat, etc.) baked at a high temperature, traditionally in a wood-fired oven.[1] A small pizza is sometimes called a pizzetta.</div></p>
-              </section>
-            </div>  
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <section class="Hamburger"><h3>Hamburger</h3>
-              <p> A hamburger (also burger for short) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked[1] or flame broiled. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chiles; condiments such as ketchup, mustard, mayonnaise, relish, or "special sauce"; and are frequently placed on sesame seed buns. A hamburger topped with cheese is called a cheeseburger.</p>
-              </section>
-            </div>  
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <section class="Momo"><h3>Momo</h3>
-             <p>Momo is a type of South Asian steamed filled dumpling, popular across the Indian subcontinent and the Himalayan regions of broader South Asia.[1] Momos are native to Tibet, Bhutan, Nepal, North Indian region of Ladakh,[1] Northeast Indian regions of Sikkim, Assam, and Arunachal Pradesh,[1] and East Indian region of Darjeeling.[1] It is similar to Chinese baozi and mantou, Mongolian buuz, Japanese gyoza, Korean mandu and Turkic manti, but heavily influenced by cuisine of the Indian subcontinent with Indian spices and herbs. Momos are extremely popular among the natives of the Indian subcontinent, and can be found in every kind of shops from restaurants to street vendors.</p>
-             </section>
-            </div>
-
-        </div>
+    <title>Menu</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+          <div class="navbar-header">
+              <div class="navbar-brand">
+                  <a href="index.html">Food,LLC</a>
+              </div>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+             <li>
+               <a href="#chicken">
+                 <br class="hidden-xs">Chicken</a>
+             </li>
+             <li>
+               <a href="#beef">
+                 <br class="hidden-xs">Beef</a>
+             </li>
+             <li>
+               <a href="#shushi">
+                 <br class="hidden-xs">Shushi</a>
+             </li>
+             
+           </ul><!-- #nav-list -->
+         </div>
+        
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
 
-    </body>
+
+<div id="main-content" class="container"><h2 class="text-center">Our Menu</h2>
+  <div class="row">
+    
+<div id="chicken" class="col-lg-4 col-md-6 col-xs-12"><h3 class="text-center">Chicken</h3>The chicken (Gallus gallus domesticus) is a type of domesticated fowl, a subspecies of the red junglefowl (Gallus gallus). They are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018[1], up from more than 19 billion in 2011.[2] There are more chickens in the world than any other bird or domesticated fowl.[2] Humans keep chickens primarily as a source of food (consuming both their meat and eggs) and, less commonly, as pets. Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (4th–2nd centuries BC).</div>
+<div id="beef" class="col-lg-4 col-md-6 col-xs-12"><h3 class="text-center">Beef</h3>Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.[1] Beef is a source of high-quality protein and nutrients.[2]
+
+  Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed (corned beef or beef jerky). Trimmings, on the other hand, are usually mixed with meat from older, leaner (therefore tougher) cattle, are ground, minced or used in sausages. The blood is used in some varieties called blood sausage. Other parts that are eaten include other muscles and offal, such as the oxtail, liver, tongue, tripe from the reticulum or rumen, glands (particularly the pancreas and thymus, referred to as sweetbread), the heart, the brain (although forbidden where there is a danger of bovine spongiform encephalopathy, BSE, commonly referred to as mad cow disease), the kidneys, and the tender testicles of the bull (known in the United States as calf fries, prairie oysters, or Rocky Mountain oysters). </div>
+<div id="shushi" class="col-lg-4 col-md-6 col-xs-12"><h3 class="text-center">Shushi</h3>Sushi (すし, 寿司, 鮨, pronounced [sɯ̥ɕiꜜ] or [sɯ̥ꜜɕi]) is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanying a variety of ingredients (ネタ, neta), such as seafood, vegetables, and occasionally tropical fruits. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice", also referred to as shari (しゃり), or sumeshi (酢飯).[1]
+
+  Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</div>
+</div>
+</div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
